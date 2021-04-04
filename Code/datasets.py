@@ -14,6 +14,18 @@ import numpy as np
 from sklearn.utils import check_array, check_random_state
 
 
+def rotate_2d(
+    points: Union[List[Tuple[float, float]], Tuple[float, float], np.ndarray],
+    origin: Tuple[float, float] = (0.0, 0.0),
+    degrees: float = 0.0,
+):
+    angle = np.deg2rad(degrees)
+    R = np.array([[np.cos(angle), -np.sin(angle)], [np.sin(angle), np.cos(angle)]])
+    o = np.atleast_2d(origin)
+    p = np.atleast_2d(points)
+    return np.squeeze((R @ (p.T - o.T) + o.T).T)
+
+
 def make_blobs(
     n_samples: Union[int, List[int], np.ndarray] = 100,
     n_features: int = 2,
