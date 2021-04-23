@@ -12,6 +12,7 @@ from qiskit.circuit.library import ZZFeatureMap, TwoLocal
 from sklearn.metrics import classification_report
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import normalize
+from tqdm import tqdm
 
 from datasets import make_blobs, rotate_2d
 
@@ -132,7 +133,7 @@ for distribution in distributions:
 
     # fig = plt.figure(figsize=(15, 12))
 
-    for angle in np.arange(0.0, 100.0, 10.0):
+    for angle in tqdm(np.arange(0.0, 360.0, 15.0)):
         rotate_and_train(angle)
 
     # plt.close()

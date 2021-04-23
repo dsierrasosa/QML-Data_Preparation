@@ -7,13 +7,13 @@ Rotation: 0.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
-           1       0.17      0.14      0.15         7
+           1       0.38      0.43      0.40         7
 
-    accuracy                           0.08        12
-   macro avg       0.08      0.07      0.08        12
-weighted avg       0.10      0.08      0.09        12
+    accuracy                           0.25        12
+   macro avg       0.19      0.21      0.20        12
+weighted avg       0.22      0.25      0.23        12
 
-Rotation: 10.0 degrees
+Rotation: 15.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -23,27 +23,17 @@ Rotation: 10.0 degrees
    macro avg       0.19      0.21      0.20        12
 weighted avg       0.22      0.25      0.23        12
 
-Rotation: 20.0 degrees
-              precision    recall  f1-score   support
-
-           0       0.00      0.00      0.00         5
-           1       0.29      0.29      0.29         7
-
-    accuracy                           0.17        12
-   macro avg       0.14      0.14      0.14        12
-weighted avg       0.17      0.17      0.17        12
-
 Rotation: 30.0 degrees
               precision    recall  f1-score   support
 
-           0       0.00      0.00      0.00         5
-           1       0.29      0.29      0.29         7
+           0       0.00      0.00      0.00       5.0
+           1       0.00      0.00      0.00       7.0
 
-    accuracy                           0.17        12
-   macro avg       0.14      0.14      0.14        12
-weighted avg       0.17      0.17      0.17        12
+    accuracy                           0.00      12.0
+   macro avg       0.00      0.00      0.00      12.0
+weighted avg       0.00      0.00      0.00      12.0
 
-Rotation: 40.0 degrees
+Rotation: 45.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -53,7 +43,7 @@ Rotation: 40.0 degrees
    macro avg       0.22      0.29      0.25        12
 weighted avg       0.26      0.33      0.29        12
 
-Rotation: 50.0 degrees
+Rotation: 60.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -63,7 +53,7 @@ Rotation: 50.0 degrees
    macro avg       0.14      0.14      0.14        12
 weighted avg       0.17      0.17      0.17        12
 
-Rotation: 60.0 degrees
+Rotation: 75.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -73,7 +63,87 @@ Rotation: 60.0 degrees
    macro avg       0.08      0.07      0.08        12
 weighted avg       0.10      0.08      0.09        12
 
-Rotation: 70.0 degrees
+Rotation: 90.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.50      0.71      0.59         7
+
+    accuracy                           0.42        12
+   macro avg       0.25      0.36      0.29        12
+weighted avg       0.29      0.42      0.34        12
+
+Rotation: 105.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.38      0.43      0.40         7
+
+    accuracy                           0.25        12
+   macro avg       0.19      0.21      0.20        12
+weighted avg       0.22      0.25      0.23        12
+
+Rotation: 120.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.38      0.43      0.40         7
+
+    accuracy                           0.25        12
+   macro avg       0.19      0.21      0.20        12
+weighted avg       0.22      0.25      0.23        12
+
+Rotation: 135.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.44      0.57      0.50         7
+
+    accuracy                           0.33        12
+   macro avg       0.22      0.29      0.25        12
+weighted avg       0.26      0.33      0.29        12
+
+Rotation: 150.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       5.0
+           1       0.00      0.00      0.00       7.0
+
+    accuracy                           0.00      12.0
+   macro avg       0.00      0.00      0.00      12.0
+weighted avg       0.00      0.00      0.00      12.0
+
+Rotation: 165.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.38      0.43      0.40         7
+
+    accuracy                           0.25        12
+   macro avg       0.19      0.21      0.20        12
+weighted avg       0.22      0.25      0.23        12
+
+Rotation: 180.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.38      0.43      0.40         7
+
+    accuracy                           0.25        12
+   macro avg       0.19      0.21      0.20        12
+weighted avg       0.22      0.25      0.23        12
+
+Rotation: 195.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.17      0.14      0.15         7
+
+    accuracy                           0.08        12
+   macro avg       0.08      0.07      0.08        12
+weighted avg       0.10      0.08      0.09        12
+
+Rotation: 210.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -83,7 +153,7 @@ Rotation: 70.0 degrees
    macro avg       0.14      0.14      0.14        12
 weighted avg       0.17      0.17      0.17        12
 
-Rotation: 80.0 degrees
+Rotation: 225.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -93,7 +163,67 @@ Rotation: 80.0 degrees
    macro avg       0.19      0.21      0.20        12
 weighted avg       0.22      0.25      0.23        12
 
-Rotation: 90.0 degrees
+Rotation: 240.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.29      0.29      0.29         7
+
+    accuracy                           0.17        12
+   macro avg       0.14      0.14      0.14        12
+weighted avg       0.17      0.17      0.17        12
+
+Rotation: 255.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       5.0
+           1       0.00      0.00      0.00       7.0
+
+    accuracy                           0.00      12.0
+   macro avg       0.00      0.00      0.00      12.0
+weighted avg       0.00      0.00      0.00      12.0
+
+Rotation: 270.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.29      0.29      0.29         7
+
+    accuracy                           0.17        12
+   macro avg       0.14      0.14      0.14        12
+weighted avg       0.17      0.17      0.17        12
+
+Rotation: 285.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.17      0.14      0.15         7
+
+    accuracy                           0.08        12
+   macro avg       0.08      0.07      0.08        12
+weighted avg       0.10      0.08      0.09        12
+
+Rotation: 300.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00       5.0
+           1       0.00      0.00      0.00       7.0
+
+    accuracy                           0.00      12.0
+   macro avg       0.00      0.00      0.00      12.0
+weighted avg       0.00      0.00      0.00      12.0
+
+Rotation: 315.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.29      0.29      0.29         7
+
+    accuracy                           0.17        12
+   macro avg       0.14      0.14      0.14        12
+weighted avg       0.17      0.17      0.17        12
+
+Rotation: 330.0 degrees
               precision    recall  f1-score   support
 
            0       0.00      0.00      0.00         5
@@ -102,4 +232,14 @@ Rotation: 90.0 degrees
     accuracy                           0.25        12
    macro avg       0.19      0.21      0.20        12
 weighted avg       0.22      0.25      0.23        12
+
+Rotation: 345.0 degrees
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00         5
+           1       0.17      0.14      0.15         7
+
+    accuracy                           0.08        12
+   macro avg       0.08      0.07      0.08        12
+weighted avg       0.10      0.08      0.09        12
 
